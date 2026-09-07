@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 
 public class TransactionIngestor {
 
-    private int limiteLinha = 1000;
+    private int limiteLinha = 50000;
 
     public List<Transaction> lerArquivo(Path arquivo) {
         List<Transaction> transacoes = new ArrayList<>();
